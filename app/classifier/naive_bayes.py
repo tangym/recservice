@@ -22,4 +22,3 @@ class NaiveBayesHandler(Resource):
 
 class NaiveBayes(base_model.Classifier):
     pass
-

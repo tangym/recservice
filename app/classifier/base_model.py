@@ -7,3 +7,4 @@ class Classifier:
     
     def predict(sample):
         return None
+ 
