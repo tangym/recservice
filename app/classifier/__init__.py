@@ -16,8 +16,8 @@ def index():
     # TODO: render document template
     return 'This should be the classifier model.\n'
 
-@classifier.route('/doc/<string:model>')
-@classifier.route('/doc/<string:model>/')
+@classifier.route('/<string:model>')
+@classifier.route('/<string:model>/')
 def doc(model):
     # TODO: render document template
     try:
